@@ -32,3 +32,13 @@ Using the google drive api to get google form data
 **Step 10:** A JSON File will be downloaded. Click on it and copy the client email. 
 
 **Step 11:** Navigate to the spreadsheet you created in the first part and click on share. You will share the sheet to your service account.
+
+# Next Steps...
+Remember the JSON File you downloaded? Copy all of the information from that and paste it into the ex.json file. 
+
+**Before you run the python script, you must install the gspread oauth2 package by running `pip install gspread oath2` in your command line.**
+
+In the python script, change the value of the variable googleSheetName to the name of the gooogle sheet you created in the first part.
+
+
+If you are stuck at any part, you can read [this amazing article](https://towardsdatascience.com/accessing-google-spreadsheet-data-using-python-90a5bc214fd2).
